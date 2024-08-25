@@ -4,7 +4,6 @@ import requests
 import datetime
 from config import API_TOKEN, open_weather_token
 from aiogram import Bot, Dispatcher
-
 from handlers import router
 from handlers_time import router_time
 from handlers_timer import router_timer

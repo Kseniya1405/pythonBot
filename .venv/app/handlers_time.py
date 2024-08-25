@@ -12,6 +12,7 @@ from aiogram.methods.send_location import SendLocation
 
 router_time = Router()
 
+
 class Time(StatesGroup):
     method = State()
     location = State()
